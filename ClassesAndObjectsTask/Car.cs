@@ -4,7 +4,7 @@ namespace ClassesAndObjectsTask
 {
     public class Car
     {
-        private string brand;
+        private readonly string brand;
 
         public Car() => this.brand = string.Empty;
 
